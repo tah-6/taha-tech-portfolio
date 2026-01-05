@@ -196,6 +196,50 @@ function App() {
               </div>
             </div>
 
+            {/* TreeCleaner */}
+            <div className="card group p-8">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                <div>
+                  <span className="text-orange-500/70 text-sm font-mono mb-2 block">Web Development Project</span>
+                  <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-orange-500 transition-colors">
+                    TreeCleaner
+                  </h3>
+                  <p className="text-white/70 text-sm">Web Application</p>
+                </div>
+              </div>
+              <div className="mt-4 space-y-3 text-white/90">
+                <p className="leading-relaxed">
+                  A subscription management platform that helps users master their subscriptions by tracking recurring payments and avoiding forgotten free trials. It brings clarity to your financial life by ensuring you only pay for services you actually use.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 mt-4 mb-4">
+                   <div className="bg-white/5 p-3 rounded-lg border border-white/10">
+                     <h5 className="text-orange-400 font-semibold mb-1 text-sm">Real-time Tracking</h5>
+                     <p className="text-xs text-white/70">Centralized dashboard for all recurring payments</p>
+                   </div>
+                   <div className="bg-white/5 p-3 rounded-lg border border-white/10">
+                     <h5 className="text-orange-400 font-semibold mb-1 text-sm">Smart Alerts</h5>
+                     <p className="text-xs text-white/70">Notifications before free trials convert</p>
+                   </div>
+                   <div className="bg-white/5 p-3 rounded-lg border border-white/10">
+                     <h5 className="text-orange-400 font-semibold mb-1 text-sm">Bank-Grade Security</h5>
+                     <p className="text-xs text-white/70">256-bit encryption for financial data</p>
+                   </div>
+                   <div className="bg-white/5 p-3 rounded-lg border border-white/10">
+                     <h5 className="text-orange-400 font-semibold mb-1 text-sm">Savings Insights</h5>
+                     <p className="text-xs text-white/70">Visual indicators of monthly savings</p>
+                   </div>
+                </div>
+                <p className="text-white/80 text-sm mt-4">
+                  <strong className="text-orange-500">Technologies:</strong> Next.js (React), Tailwind CSS, Vercel
+                </p>
+                <div className="flex gap-6 justify-center mt-6">
+                  <a href="https://saasprojecttreecleaner.vercel.app" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors font-semibold">
+                    Live Demo →
+                  </a>
+                </div>
+              </div>
+            </div>
+
             {/* Job Tracker */}
             <div className="card group p-8">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
