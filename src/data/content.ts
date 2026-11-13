@@ -69,14 +69,14 @@ export type SkillGroup = { label: string; items: string[] };
 /* ------------------------------------------------------------------ */
 
 export const profile = {
-  name: "Syed Taha Irfan",
+  name: "Taha Irfan",
   headline:
     "Computer Engineering student building embedded firmware and hardware test systems.",
   subline:
     "B.Eng Computer Engineering (Co-op) at the University of Guelph. Interested in embedded/firmware, hardware validation and test.",
   availability: "Open to co-op roles: Winter 2027 & Summer 2027",
   location: "Milton, ON",
-  email: "irfans@uoguelph.ca",
+  email: "taha.syed.irfan@gmail.com",
   /** TODO(Taha): export the PDF from Overleaf to /public/Taha_Irfan_Resume.pdf. */
   resumePath: "/Taha_Irfan_Resume.pdf",
 } as const;
@@ -107,7 +107,6 @@ export const experience: Experience[] = [
     role: "Sales Associate",
     company: "Sunglass Hut",
     date: "May 2026 – August 2026",
-    note: "4-month contract · In-store",
     location: "Halton Hills, ON",
     // TODO(Taha): §11 needs exactly 3 bullets per card; the spec has 2 here.
     bullets: [
@@ -143,9 +142,9 @@ export const experience: Experience[] = [
   },
   {
     id: "guelph-engineering-society",
-    role: "Chair & Membership Development Coordinator",
+    role: "Chair",
     company: "Guelph Engineering Society",
-    date: "Winter 2025",
+    date: "January 2025 – April 2025",
     location: "Guelph, ON",
     bullets: [
       "Chaired society meetings. Brought many viewpoints from across engineering disciplines together into one direction and made it digestible for a large group.",
@@ -205,7 +204,7 @@ export const projects: Project[] = [
     bullets: [
       "Designed a 16-bit single-cycle CPU in VHDL.",
       "Wrote a VHDL testbench in Vivado that checked each instruction to confirm it worked as intended.",
-      "Implements 8 instructions: BNE, SUB, ADD, LW, SW, OR, AND, ADDI.",
+      "Implements 9 instructions: BNE, JMP, SUB, ADD, LW, SW, OR, AND, ADDI.",
     ],
   },
   {

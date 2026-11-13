@@ -6,8 +6,8 @@ Source of truth for the portfolio rebuild. Claude Code: read this whole file bef
 
 ## 0. Decide before building (Taha, edit these)
 
-- [ ] **Public email:** `taha.syed.irfan@gmail.com` or `irfans@uoguelph.ca`? (Pick one for the site.)
-- [ ] **Phone number:** The current site shows (604) 652-9393 publicly. Recommendation: remove it, since bots scrape it. Keep email + LinkedIn + GitHub. Keep / remove?
+- [x] **Public email:** `taha.syed.irfan@gmail.com` (decided).
+- [x] **Phone number:** Removed from the site (decided). Keep email + LinkedIn + GitHub.
 - [ ] **Graduation:** The current site says April 2029. Other records say May 2029. Which is correct?
 - [ ] **Haptic wearable:** The current site says "embedded C++ firmware" and "June 2025 – Present". Correct to the real language (C?) and dates (May 2025 – Aug 2025?).
 - [ ] **TreeCleaner:** Keep only features that actually work. The current page claims "256-bit encryption" and "bank-grade security". Remove those if the app doesn't really do that.
@@ -23,7 +23,7 @@ Source of truth for the portfolio rebuild. Claude Code: read this whole file bef
 - **Subline:** B.Eng Computer Engineering (Co-op) at the University of Guelph. Interested in embedded/firmware, hardware validation and test.
 - **Availability badge:** "Open to co-op roles: Winter 2027 & Summer 2027" (small pill with a green dot).
 - **Location:** Milton, ON
-- **Links:** GitHub https://github.com/tah-6 · LinkedIn https://www.linkedin.com/in/taha-irfan-57547525a/ · Email (see §0)
+- **Links:** GitHub https://github.com/tah-6 · LinkedIn https://www.linkedin.com/in/taha-irfan-57547525a/ · Email taha.syed.irfan@gmail.com
 
 ---
 
@@ -78,7 +78,7 @@ Jan 2026 – Apr 2026 · Course project
 **Stack:** VHDL, Vivado, testbench simulation
 - Designed a 16-bit single-cycle CPU in VHDL.
 - Wrote a VHDL testbench in Vivado that checked each instruction to confirm it worked as intended.
-- Implements 8 instructions: BNE, SUB, ADD, LW, SW, OR, AND, ADDI.
+- Implements 9 instructions: BNE, JMP, SUB, ADD, LW, SW, OR, AND, ADDI.
 
 ### ★ Wearable Haptic Navigation System
 May 2025 – Aug 2025 (confirm, see §0) · Independent project

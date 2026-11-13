@@ -1,4 +1,4 @@
-# Syed Taha Irfan — portfolio
+# Taha Irfan — portfolio
 
 Next.js (App Router) + TypeScript + Tailwind CSS. Statically generated.
 
